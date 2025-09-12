@@ -322,3 +322,5 @@ If you'd like to see the stack printed out you can either temporarily disable th
 5. Now you have two options of how to run the tests:
    * (Preferred) Use VS Code and the [Playwright Test module for VSCode](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright). But other editors do have similar plugins for ease of use, if so desired
    * Using terminal - `npx playwright test` will run the playwright test suite. `npx playwright test --headed` will run the suite in a vnc-like browser so you can watch it's interactions.
+
+testik
