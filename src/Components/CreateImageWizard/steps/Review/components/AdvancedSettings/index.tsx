@@ -38,7 +38,7 @@ const AdvancedSettingsOverview = ({
   oscapServices,
 }: AdvancedSettingsOverviewProps) => {
   const usersHidden =
-    restrictions.users.shouldHide || restrictions.users.required;
+    restrictions.users.shouldHide || restrictions.users.isStandalone;
   const hasUsers = !usersHidden && useAppSelector(selectHasUsers);
   const hasUserGroups = !usersHidden && useAppSelector(selectHasUserGroups);
 
